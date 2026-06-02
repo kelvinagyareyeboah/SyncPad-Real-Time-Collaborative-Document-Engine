@@ -1,50 +1,137 @@
-# Google Docs Clone
+<div align="center">
 
-A collaborative document editor built with Next.js, featuring real-time collaboration, authentication, and organizational support. This application provides a Google Docs-like experience with rich text editing, live cursors, comments, and document management.
+<img src="public/logo.svg" alt="SyncPad Logo" width="72" height="72" />
 
-## Features
+# SyncPad
 
-- **Real-time Collaboration**: Multiple users can edit documents simultaneously with live cursors and instant updates
-- **Rich Text Editor**: Powered by TipTap with support for headings, formatting, tables, images, and more
-- **Authentication**: Secure user authentication with Clerk, supporting organizations and personal accounts
-- **Document Management**: Create, edit, delete, and organize documents with search functionality
-- **Organizational Support**: Share documents within organizations and manage team collaboration
-- **Responsive Design**: Modern UI built with Tailwind CSS and shadcn/ui components
-- **Template Gallery**: Pre-built document templates for common use cases
+### Real-Time Collaborative Document Engine
 
-## Tech Stack
+<br/>
 
-- **Frontend**: Next.js 15, React 19, TypeScript
-- **Backend**: Convex for real-time database and API
-- **Authentication**: Clerk with organization support
-- **Real-time Collaboration**: Liveblocks for collaborative editing
-- **Editor**: TipTap with collaborative extensions
-- **Styling**: Tailwind CSS, shadcn/ui components
-- **State Management**: Zustand
+[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
-## Prerequisites
+[![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://convex.dev)
+[![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com)
+[![Liveblocks](https://img.shields.io/badge/Liveblocks-FF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
+[![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?style=for-the-badge&logo=tiptap&logoColor=white)](https://tiptap.dev)
 
-Before setting up the project, ensure you have:
+<br/>
 
-- A Convex account
-- A Clerk account
-- A Liveblocks account
+> A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and organizational support — built on a modern serverless stack.
 
-## Setup Instructions
+<br/>
 
-### 1. Clone and Install Dependencies
+</div>
 
-```bash
-git clone https://github.com/Davronov-Alimardon/google-docs.git
-cd google-docs-clone
-npm install
+---
+
+## ✦ Features
+
+| | Feature | Details |
+|---|---|---|
+| 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
+| ✍️ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
+| 🔐 | **Authentication** | Clerk with org support — sign in, teams, and permissions |
+| 📁 | **Document Management** | Create, rename, delete, search — personal & org-scoped |
+| 🕓 | **Version History** | Snapshot revisions with word-level LCS diff visualization |
+| 🧠 | **Smart Compose** | AI-assisted writing extension built into the editor |
+| 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
+| 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
+
+---
+
+## ⚙️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                        Browser                          │
+│                                                         │
+│   Next.js 15 (App Router)  +  TipTap Editor             │
+│        │                          │                     │
+│        │                   Liveblocks Yjs (CRDT)        │
+│        │                   Live Cursors / Storage       │
+└────────┼──────────────────────────┼────────────────────-┘
+         │                          │
+    Convex Backend            Liveblocks Cloud
+    (DB + API + Auth)         (Real-Time Sync)
+         │
+    Clerk (Auth + Orgs)
 ```
 
-> **Note**: Use `npm install --legacy-peer-deps` flag if you encounter version conflicts during installation.
+### How Conflict Resolution Works
 
-### 2. Environment Variables
+SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
-Create a `.env.local` file in the root directory with the following variables:
+- Every character has a globally unique ID `(authorId + logicalClock)`
+- Concurrent inserts at the same position resolve deterministically by comparing IDs
+- Deletions are **tombstoned**, not removed — guaranteeing convergence across all peers
+- No central lock, no transformation functions, no bottleneck
+
+```
+User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
+                                  Yjs merges
+                              ◄── "hello world" ──►
+```
+
+Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-based.
+
+---
+
+## 🗂️ Project Structure
+
+```
+├── src/
+│   ├── app/
+│   │   ├── (home)/          # Dashboard & document listing
+│   │   ├── api/             # API routes (Liveblocks auth, etc.)
+│   │   ├── documents/       # Editor page [documentId]
+│   │   └── sign-in/         # Auth pages
+│   ├── components/          # Shared UI components (shadcn/ui + custom)
+│   ├── extensions/          # Custom TipTap extensions
+│   │   ├── font-size.ts
+│   │   ├── line-height.ts
+│   │   └── smart-compose.ts
+│   ├── hooks/               # use-debounce, use-mobile, use-search-param…
+│   ├── lib/
+│   │   ├── diff.ts          # LCS word-diff algorithm for revision history
+│   │   └── utils.ts
+│   └── store/               # Zustand stores (editor, revision, zen mode)
+│
+└── convex/
+    ├── schema.ts            # Database schema
+    ├── documents.ts         # Document CRUD
+    ├── revisions.ts         # Snapshot & revision history
+    ├── members.ts           # Org membership
+    ├── users.ts             # User records
+    └── auth.config.ts       # Clerk JWT config
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Convex](https://convex.dev) account
+- [Clerk](https://clerk.com) account
+- [Liveblocks](https://liveblocks.io) account
+
+### 1 — Install
+
+```bash
+git clone https://github.com/your-username/syncpad.git
+cd syncpad
+npm install
+# if you hit peer dep conflicts:
+npm install --legacy-peer-deps
+```
+
+### 2 — Environment Variables
+
+Create `.env.local` in the root:
 
 ```env
 # Convex
@@ -58,164 +145,59 @@ CLERK_SECRET_KEY=your-clerk-secret-key
 LIVEBLOCKS_SECRET_KEY=your-liveblocks-secret-key
 ```
 
-### 3. Convex Setup
+### 3 — Convex Setup
 
-#### Install Convex CLI
 ```bash
 npm install -g convex
-```
-
-#### Initialize Convex
-```bash
 npx convex dev
 ```
 
-#### Configure Authentication
-1. Go to your Convex dashboard
-2. Navigate to Settings > Authentication
-3. Add Clerk as an authentication provider
-4. Use your Clerk domain: `https://your-clerk-domain.clerk.accounts.dev`
-5. Set the application ID to: `convex`
+In your **Convex Dashboard → Settings → Authentication**, add Clerk as a provider:
+- Domain: `https://your-clerk-domain.clerk.accounts.dev`
+- Application ID: `convex`
 
-#### Deploy Convex Functions
-```bash
-npx convex deploy
+Update `convex/auth.config.ts`:
+
+```ts
+export default {
+  providers: [{
+    domain: "https://your-clerk-domain.clerk.accounts.dev",
+    applicationID: "convex"
+  }]
+}
 ```
 
-### 4. Clerk Setup
+### 4 — Clerk Setup
 
-#### Create Clerk Application
-1. Sign up at [clerk.com](https://clerk.com)
-2. Create a new application
-3. Enable organizations in your Clerk dashboard:
-   - Go to Configure > Organizations
-   - Enable organizations feature
-   - Configure organization settings as needed
+1. Enable **Organizations** in Configure → Organizations
+2. Create a **JWT Template** named `convex` with these claims:
 
-#### Configure JWT Template
-1. In your Clerk dashboard, go to Configure > JWT Templates
-2. Create a new template called `convex`
-3. Add the following claims:
 ```json
 {
   "aud": "convex",
   "name": "{{user.full_name}}",
   "email": "{{user.primary_email_address}}",
   "picture": "{{user.image_url}}",
-  "nickname": "{{user.username}}",
-  "given_name": "{{user.first_name}}",
-  "updated_at": "{{user.updated_at}}",
-  "family_name": "{{user.last_name}}",
-  "phone_number": "{{user.primary_phone_number}}",
-  "email_verified": "{{user.email_verified}}",
-  "organization_id": "{{org.id}}",
-  "phone_number_verified": "{{user.phone_number_verified}}"
+  "organization_id": "{{org.id}}"
 }
 ```
 
-#### Update Convex Auth Config
-Update `convex/auth.config.ts` with your Clerk domain:
-```typescript
-export default {
-  providers: [
-    {
-      domain: "https://your-clerk-domain.clerk.accounts.dev",
-      applicationID: "convex"
-    }
-  ]
-}
-```
-
-### 5. Liveblocks Setup
-
-#### Create Liveblocks Project
-1. Sign up at [liveblocks.io](https://liveblocks.io)
-2. Create a new project
-3. Get your public and secret keys from the dashboard
-
-### 6. Run the Development Server
+### 5 — Run
 
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:3000`.
-
-## Project Structure
-
-```
-src/
-├── app/                   # Next.js app directory
-│   ├── (home)/            # Home page and document listing
-│   ├── api/               # API routes
-│   ├── documents/         # Document editing interface
-│   └── layout.tsx         # Root layout
-├── components/            # Reusable components
-│   ├── ui/                # shadcn/ui components
-│   └── ...                # Custom components
-├── hooks/                 # Custom React hooks
-├── lib/                   # Utility functions
-└── store/                 # Zustand stores
-
-convex/
-├── documents.ts          # Document CRUD operations
-├── schema.ts             # Database schema
-└── auth.config.ts        # Authentication configuration
-```
-
-## How Real-Time Conflict Resolution Works
-
-This is the most technically interesting part of the project — worth understanding deeply.
-
-### The Problem: Two Users, One Document
-
-Imagine a user in London and a user in New York both have the document open. The London user types `" is great"` at position 5. At the exact same millisecond, the New York user deletes the word at position 3. Both operations are sent to the server. Which one wins? If you apply them naively in arrival order, you get data corruption — the positions are now wrong because each operation was computed against a *different* version of the document.
-
-This is the core distributed systems problem: **concurrent operations on shared mutable state**.
-
-### Operational Transformation (OT) vs. CRDTs
-
-There are two main approaches to solving this:
-
-**Operational Transformation (OT)** — used by Google Docs internally:
-- Every operation is transformed against concurrent operations before being applied
-- Requires a central server to serialize and transform operations in the correct order
-- Complex to implement correctly (the transformation functions must satisfy convergence properties)
-- Scales poorly: the server becomes a bottleneck
-
-**Conflict-free Replicated Data Types (CRDTs)** — used in this project via Liveblocks:
-- Data structures mathematically guaranteed to converge to the same state regardless of operation order
-- No central coordinator needed — every peer can apply operations independently
-- For text, Liveblocks uses a variant of **Yjs** (a CRDT library), which represents the document as a sequence of uniquely-identified characters
-- Each character gets a globally unique ID (author ID + logical clock). Deletions mark characters as tombstoned rather than removing them immediately
-- Because every character has a unique identity, two concurrent inserts at the same position are resolved deterministically by comparing IDs — no transformation needed
-
-### What This Project Does
-
-```
-User A (London)          Liveblocks CRDT Layer         User B (New York)
-     |                          |                              |
- types "hello"  ──────────────► |  ◄─────────────  types "world"
-     |                    merges via Yjs                       |
-     |                    (no server lock)                     |
-     ◄──────────── "hello world" ──────────────────────────────►
-```
-
-- The `useLiveblocksExtension` in [`editor.tsx`](src/app/documents/%5BdocumentId%5D/editor.tsx) binds TipTap to a Liveblocks Yjs document
-- `history: false` is set in StarterKit because Yjs manages its own undo/redo history across all collaborators
-- `offlineSupport_experimental: true` enables local-first editing — changes are queued and synced when reconnected
-- Shared state like margin positions lives in Liveblocks Storage (a CRDT map), so even UI state is conflict-free
-
-### Version History & Diffing
-
-The revision system in [`revision-sidebar.tsx`](src/app/documents/%5BdocumentId%5D/revision-sidebar.tsx) snapshots plain text to Convex. The visual diff uses a custom **Longest Common Subsequence (LCS)** algorithm in [`lib/diff.ts`](src/lib/diff.ts) — the same class of algorithm used by `git diff` — to compute word-level insertions and deletions between any two versions.
+Open [http://localhost:3000](http://localhost:3000) 🎉
 
 ---
 
-## Contributing
+## 📄 License
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+[MIT](LICENSE)
+
+---
+
+<div align="center">
+  <sub>Built with Next.js · Convex · Liveblocks · Clerk · TipTap</sub>
+</div>
