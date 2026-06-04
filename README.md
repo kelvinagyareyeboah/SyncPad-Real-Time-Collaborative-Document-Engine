@@ -2,8 +2,7 @@ Script](https://img.shields.io/badge/T78C6?style=for-the-badge&logo=typescript&l
 [![Ta//img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://
 [![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://co
 [![Liveblocks](https://img.shields.io/badge/LFF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
-[![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?stybadge&logo=tiptap&logoColor=white)](http
-<br/>
+[![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?stybadge&logo=tiptap&logoColor=wh
 
 > A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assistance — bus stack.
 
