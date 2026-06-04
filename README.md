@@ -1,6 +1,4 @@
-      # use-debounce, use-mobile, use-search-param…
-│   ├── lib/
-│   │   ├── diff.ts          # LCS word-diff algorithm for revision history
+
 │   │   └── utils.ts
 │   └── store/               # Zustand stores (editor, revision, zen mode)
 │
