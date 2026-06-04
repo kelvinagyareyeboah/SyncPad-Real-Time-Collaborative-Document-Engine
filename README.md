@@ -1,5 +1,4 @@
-s
-ve editor with CRDT-based conflict resolution, live cursors, 
+conflict resolution, live cursors, 
 
 ## ✦ Features
 
