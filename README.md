@@ -1,6 +1,4 @@
-eplicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
-
-- Every charac*, not removed — guaranteeing convergence across all peers
+eplicaremoved — guaranteeing convergence across all peers
 - No central lock, no transformation functions, no bottleneck
 
 ```
