@@ -1,6 +1,5 @@
 
 
-| | Feature | Details |
 |---|---|---|
 | 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
 | ✍ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
