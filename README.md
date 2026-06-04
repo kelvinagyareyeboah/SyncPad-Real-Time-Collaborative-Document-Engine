@@ -1,8 +1,4 @@
-te (margins, etc.) lives in **Liveblocks Storage** — also CRDT-based.
-
----
-
-## 🗂️ Project Structure
+tetructure
 
 ```
 ├── src/
