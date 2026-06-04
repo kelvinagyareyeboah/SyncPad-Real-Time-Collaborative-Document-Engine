@@ -1,6 +1,3 @@
-vex Backend  Liveblocks Cloud
-│               (DB & API Queries) (Real-Time Sync)
-```
 
 ### How Conflict Resolution Works
 
