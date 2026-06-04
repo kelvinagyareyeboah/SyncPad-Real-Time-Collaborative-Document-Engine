@@ -1,6 +1,4 @@
 
-### How Conflict Resolution Works
-
 SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
