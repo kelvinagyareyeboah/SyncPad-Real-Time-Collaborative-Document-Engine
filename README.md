@@ -1,8 +1,4 @@
-
-
-|---|---|---|
-| 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
-rt Compose** | AI-assisted writing extension built into the editor |
+sisted writing extension built into the editor |
 | 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
 | 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
 
