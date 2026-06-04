@@ -1,12 +1,3 @@
-D
-    ├── revisions.ts         # Snapshot & revision history
-    ├── members.ts           # Document membership & access queries
-    └── users.ts             # Demo user queries
-```
-
----
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
