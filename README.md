@@ -1,10 +1,7 @@
 ation functions, no bottleneck
 
 ```
-User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
-                                  Yjs merges
-                              ◄── "hello world" ──►
-```
+User A  ──── types "hello" ────
 
 Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-based.
 
