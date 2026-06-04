@@ -3,7 +3,7 @@ ic/logo.svg" alt="SyncPad Logo" width="72" hencPad
 ### Realshields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/T78C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Ta//img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://
-[![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://convex.dev)
+[![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://co
 [![Liveblocks](https://img.shields.io/badge/LFF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
 [![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?style=for-the-badge&logo=tiptap&logoColor=white)](https://tiptap.dev)
 
