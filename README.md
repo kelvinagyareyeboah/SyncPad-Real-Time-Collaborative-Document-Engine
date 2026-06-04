@@ -2,10 +2,7 @@
 
 <img src="public/logo.svg" alt="SyncPad Logo" width="72" hencPad
 
-### Real-Time Collaborative Docum
-
-<br/>
-
+### Real-Time Collaborati
 [![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
