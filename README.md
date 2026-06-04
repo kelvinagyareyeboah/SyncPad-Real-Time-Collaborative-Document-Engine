@@ -1,8 +1,4 @@
-sisted writing extension built into the editor |
-| 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
-| 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
 
----
 ┌─────────────────────────────────────────────────────────┐
 │                        Browser                          │
 │                                                         │
