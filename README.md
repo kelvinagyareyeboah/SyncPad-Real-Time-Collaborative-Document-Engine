@@ -1,6 +1,4 @@
-conflict resolution, live cursors, 
 
-## ✦ Features
 
 | | Feature | Details |
 |---|---|---|
