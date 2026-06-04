@@ -1,8 +1,6 @@
 eplicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
-- Every character has a globally unique ID `(authorId + logicalClock)`
-- Concurrent inserts at the same position resolve deterministically by comparing IDs
-- Deletions are **tombstoned**, not removed — guaranteeing convergence across all peers
+- Every charac*, not removed — guaranteeing convergence across all peers
 - No central lock, no transformation functions, no bottleneck
 
 ```
