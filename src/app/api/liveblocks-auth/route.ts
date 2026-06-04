@@ -3,8 +3,12 @@ import { ConvexHttpClient } from "convex/browser";
 import { api } from "../../../../convex/_generated/api";
 import { Id } from "../../../../convex/_generated/dataModel";
 
-const liveblocks = new Liveblocks({ secret: process.env.LIVEBLOCKS_SECRET_KEY! });
-const convex = new ConvexHttpClient(process.env.NEXT_PUBLIC_CONVEX_URL!);
+export const dynamic = "force-dynamic";
+
+const liveblocks = new Liveblocks({ 
+  secret: process.env.LIVEBLOCKS_SECRET_KEY || "sk_placeholder" 
+});
+const convex = new ConvexHttpClient(process.env.NEXT_PUBLIC_CONVEX_URL || "http://localhost:3000");
 
 export async function POST(req: Request) {
   const { room, userId, userName } = await req.json();
@@ -24,7 +28,7 @@ export async function POST(req: Request) {
     return new Response("Unauthorized", { status: 401 });
   }
 
-  const hue = userId.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0) % 360;
+  const hue = (userId as string).split("").reduce((acc: number, c) => acc + c.charCodeAt(0), 0) % 360;
 
   const session = liveblocks.prepareSession(userId, {
     userInfo: { name: userName, avatar: "", color: `hsl(${hue}, 70%, 55%)` },

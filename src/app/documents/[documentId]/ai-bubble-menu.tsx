@@ -5,7 +5,6 @@ import { useEditorStore } from "@/store/use-editor-store";
 import { getAIPromptResponse } from "./ai-action";
 import { 
   Sparkles, 
-  Check, 
   CornerDownLeft, 
   Loader2, 
   Minimize2, 
@@ -54,7 +53,7 @@ export function AIBubbleMenu() {
           left: left + window.scrollX,
         });
         setIsOpen(true);
-      } catch (e) {
+      } catch {
         setIsOpen(false);
       }
     };
@@ -123,7 +122,7 @@ export function AIBubbleMenu() {
         wordIndex++;
       }, 40); // 40ms per word is a very natural typing speed!
 
-    } catch (error) {
+    } catch {
       toast.dismiss(toastId);
       toast.error("Failed to generate AI response.");
       setIsLoading(false);

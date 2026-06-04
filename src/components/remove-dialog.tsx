@@ -18,6 +18,7 @@ import {
 
 import { Id } from "../../convex/_generated/dataModel";
 import { api } from "../../convex/_generated/api";
+import { useLocalUser } from "@/hooks/use-local-user";
 
 interface RemoveDialogProps {
   documentId: Id<"documents">;
@@ -27,6 +28,7 @@ interface RemoveDialogProps {
 export const RemoveDialog = ({ documentId, children }: RemoveDialogProps) => {
   const remove = useMutation(api.documents.removeById);
   const [isRemoving, setIsRemoving] = useState(false);
+  const [user] = useLocalUser();
 
   return (
     <AlertDialog>
@@ -41,11 +43,12 @@ export const RemoveDialog = ({ documentId, children }: RemoveDialogProps) => {
         <AlertDialogFooter>
           <AlertDialogCancel onClick={(e) => e.stopPropagation()}>Cancel</AlertDialogCancel>
           <AlertDialogAction
-            disabled={isRemoving}
+            disabled={isRemoving || !user}
             onClick={(e) => {
+              if (!user) return;
               e.stopPropagation();
-              setIsRemoving(false);
-              remove({ id: documentId })
+              setIsRemoving(true);
+              remove({ id: documentId, requesterId: user.id })
                 .catch(() => toast.error("Something went wrong"))
                 .then(() => {
                   toast.success("Document removed");

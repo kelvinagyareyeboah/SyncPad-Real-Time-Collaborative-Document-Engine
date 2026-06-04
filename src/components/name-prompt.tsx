@@ -39,7 +39,7 @@ export function NamePrompt({ onConfirm }: NamePromptProps) {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. Alex Johnson"
+            placeholder="e.g. Kelvin Agyare"
             minLength={2}
             maxLength={32}
             required

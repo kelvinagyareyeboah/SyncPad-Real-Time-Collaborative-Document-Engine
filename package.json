@@ -73,7 +73,7 @@
     "input-otp": "^1.4.1",
     "jose": "^6.2.3",
     "lucide-react": "^0.465.0",
-    "next": "15.0.3",
+    "next": "^15.1.0",
     "next-themes": "^0.4.3",
     "nuqs": "^2.2.3",
     "react": "19.0.0-rc-66855b96-20241106",
@@ -99,7 +99,7 @@
     "@types/react-color": "^3.0.12",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3",
+    "eslint-config-next": "^15.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

@@ -68,9 +68,16 @@ export const Navbar = ({ data }: NavbarProps) => {
 
   const mutation = useMutation(api.documents.create);
   const onNewDocument = () => {
+    if (!user) {
+      toast.error("You must be logged in to create a document");
+      return;
+    }
+
     mutation({
       title: "Untitled Document",
       initialContent: "",
+      ownerId: user.id,
+      ownerName: user.name,
     })
       .catch(() => toast.error("Something went wrong"))
       .then((id) => {

@@ -3,7 +3,7 @@ import { SiGoogledocs } from "react-icons/si";
 import { TableCell, TableRow } from "@/components/ui/table";
 
 import { Doc } from "../../../convex/_generated/dataModel";
-import { Building2Icon, CircleUserIcon } from "lucide-react";
+import { CircleUserIcon } from "lucide-react";
 import { DocumentMenu } from "./document-menu";
 import { useRouter } from "next/navigation";
 

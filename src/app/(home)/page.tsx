@@ -9,7 +9,9 @@ import { useSearchParam } from "@/hooks/use-search-param";
 import { useLocalUser } from "@/hooks/use-local-user";
 import { NamePrompt } from "@/components/name-prompt";
 
-const Home = () => {
+import { Suspense } from "react";
+
+const HomeContent = () => {
   const [search] = useSearchParam();
   const [user, setName] = useLocalUser();
 
@@ -31,6 +33,14 @@ const Home = () => {
         <DocumentsTable documents={results} loadMore={loadMore} status={status} />
       </div>
     </div>
+  );
+};
+
+const Home = () => {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-sm text-neutral-500">Loading SyncPad...</div>}>
+      <HomeContent />
+    </Suspense>
   );
 };
 
