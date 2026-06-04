@@ -1,8 +1,4 @@
-tetructure
 
-```
-├── src/
-│   ├── app/
 │   │   ├── (home)/          # Dashboard & document listing
 │   │   ├── api/             # API routes (Liveblocks auth, etc.)
 │   │   ├── documents/       # Editor page [documentId]
