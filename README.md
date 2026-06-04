@@ -1,4 +1,4 @@
-<div align="ce
+
 
 <img src="public/logo.svg" alt="SyncPad Logo" width="72" hencPad
 
