@@ -3,9 +3,7 @@
 |---|---|---|
 | 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
 | ✍ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
-| 🔐 | **Lightweight Identity** | Fast local name-prompt system with persistent `localStorage` session support |
-| 📁 | **Document Management** | Create, rename, delete, and search documents |
-| 🕓 | **Version History** | Snapshot revisions with word-level LCS diff visualization |
+sion History** | Snapshot revisions with word-level LCS diff visualization |
 | 🧠 | **Smart Compose** | AI-assisted writing extension built into the editor |
 | 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
 | 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
