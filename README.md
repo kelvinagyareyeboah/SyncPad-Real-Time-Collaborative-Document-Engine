@@ -7,10 +7,6 @@ rt Compose** | AI-assisted writing extension built into the editor |
 | 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
 
 ---
-
-## ⚙️ Architecture
-
-```
 ┌─────────────────────────────────────────────────────────┐
 │                        Browser                          │
 │                                                         │
