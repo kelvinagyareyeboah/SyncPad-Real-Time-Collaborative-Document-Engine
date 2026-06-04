@@ -1,12 +1,7 @@
 
 │   │   ├── (home)/          # Dashboard & document listing
 │   │   ├── api/             # API routes (Liveblocks auth, etc.)
-│   │   ├── documents/       # Editor page [documentId]
-│   │   └── sign-in/         # Redirect fallback sign-in page
-│   ├── components/          # Shared UI components (shadcn/ui + custom)
-│   ├── extensions/          # Custom TipTap extensions
-│   │   ├── font-size.ts
-│   │   ├── line-height.ts
+│   .ts
 │   │   └── smart-compose.ts
 │   ├── hooks/               # use-debounce, use-mobile, use-search-param…
 │   ├── lib/
