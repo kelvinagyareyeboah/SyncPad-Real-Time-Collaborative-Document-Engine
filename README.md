@@ -4,9 +4,7 @@ Script](https://img.shields.io/badge/T78C6?style=for-the-badge&logo=typescript&l
 [![Liveblocks](https://img.shields.io/badge/LFF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
 [![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?stybadge&logo=tiptap&logoColor=wh
 
-> A Google Docs-ative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assistance —
-
-<br/>
+> A Google Docs-ative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assist
 
 </div>
 
