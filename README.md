@@ -1,4 +1,4 @@
-<div align="center">
+<div align="ce
 
 <img src="public/logo.svg" alt="SyncPad Logo" width="72" height="72" />
 
