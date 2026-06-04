@@ -2,8 +2,7 @@ Script](https://img.shields.io/badge/T78C6?style=for-the-badge&logo=typescript&l
 [![Ta//img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://
 [![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://co
 [![Liveblocks](https://img.shields.io/badge/LFF5C00?style=foe&logo=liveblocks&logoColor=white)](https://liveblocks.io)
-[![TipTap](https://img.shields.io/badge/TipTap-g
-
+[![TipTap](https://img
 > A Google Docs-ative editor with CRDT-based conflict resolution, live cursors, 
 
 ## ✦ Features
