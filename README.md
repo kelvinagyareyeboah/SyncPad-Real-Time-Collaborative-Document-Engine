@@ -1,8 +1,6 @@
 <div align="ce
 
-<img src="public/logo.svg" alt="SyncPad Logo" width="72" height="72" />
-
-# SyncPad
+<img src="public/logo.svg" alt="SyncPad Logo" width="72" hencPad
 
 ### Real-Time Collaborative Docum
 
