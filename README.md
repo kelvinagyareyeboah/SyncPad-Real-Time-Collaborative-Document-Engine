@@ -7,8 +7,7 @@
 ### 1 — Install
 
 ```bash
-git clone https://github.com/your-username/syncpad.git
-cd syncpad
+git clone https://github.com/your-username/
 npm install
 ```
 
