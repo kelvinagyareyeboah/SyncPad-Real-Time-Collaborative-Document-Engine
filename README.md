@@ -1,5 +1,4 @@
-
-SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
+eplicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
 - Concurrent inserts at the same position resolve deterministically by comparing IDs
