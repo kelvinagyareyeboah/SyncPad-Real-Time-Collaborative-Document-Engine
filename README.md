@@ -1,4 +1,4 @@
-ps://img.shields.io/badge/LFF5C00?style=foe&logo=liveblocks&logoColor=white)](https://liveblocks.io)
+adge/LFF5C00?style=foe&logo=liveblocks&logoColor=white)](https://liveblocks.io)
 [![TipTap](https://img
 > A Google Docs-ative editor with CRDT-based conflict resolution, live cursors, 
 
