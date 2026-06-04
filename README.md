@@ -5,7 +5,7 @@ ic/logo.svg" alt="SyncPad Logo" width="72" hencPad
 [![Ta//img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://
 [![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://co
 [![Liveblocks](https://img.shields.io/badge/LFF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
-[![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?style=for-the-badge&logo=tiptap&logoColor=white)](https://tiptap.dev)
+[![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?stybadge&logo=tiptap&logoColor=white)](https://tiptap.dev)
 
 <br/>
 
