@@ -6,7 +6,7 @@ Script](https://img.shields.io/badge/T78C6?style=for-the-badge&logo=typescript&l
 
 <br/>
 
-> A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assistance — built serverless stack.
+> A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assistance — bus stack.
 
 <br/>
 
