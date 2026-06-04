@@ -1,9 +1,4 @@
-                                            │
-│         Live Cursors / Storage       │
-│        └──────────────┬───────────┼─────────────────────┘
-│                       │           │
-│                       ▼           ▼
-│                 Convex Backend  Liveblocks Cloud
+vex Backend  Liveblocks Cloud
 │               (DB & API Queries) (Real-Time Sync)
 ```
 
