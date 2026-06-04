@@ -1,9 +1,4 @@
-
-│   │   ├── (home)/          # Dashboard & document listing
-│   │   ├── api/             # API routes (Liveblocks auth, etc.)
-│   .ts
-│   │   └── smart-compose.ts
-│   ├── hooks/               # use-debounce, use-mobile, use-search-param…
+      # use-debounce, use-mobile, use-search-param…
 │   ├── lib/
 │   │   ├── diff.ts          # LCS word-diff algorithm for revision history
 │   │   └── utils.ts
