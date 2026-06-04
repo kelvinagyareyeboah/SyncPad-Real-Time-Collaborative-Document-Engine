@@ -4,7 +4,7 @@
 
 # SyncPad
 
-### Real-Time Collaborative Document Engine
+### Real-Time Collaborative Docum
 
 <br/>
 
