@@ -14,13 +14,12 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
 [![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://convex.dev)
-[![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com)
 [![Liveblocks](https://img.shields.io/badge/Liveblocks-FF5C00?style=for-the-badge&logo=liveblocks&logoColor=white)](https://liveblocks.io)
 [![TipTap](https://img.shields.io/badge/TipTap-1A1A2E?style=for-the-badge&logo=tiptap&logoColor=white)](https://tiptap.dev)
 
 <br/>
 
-> A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and organizational support — built on a modern serverless stack.
+> A Google Docs-like collaborative editor with CRDT-based conflict resolution, live cursors, version history, and smart compose assistance — built on a modern serverless stack.
 
 <br/>
 
@@ -33,9 +32,9 @@
 | | Feature | Details |
 |---|---|---|
 | 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
-| ✍️ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
-| 🔐 | **Authentication** | Clerk with org support — sign in, teams, and permissions |
-| 📁 | **Document Management** | Create, rename, delete, search — personal & org-scoped |
+| ✍ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
+| 🔐 | **Lightweight Identity** | Fast local name-prompt system with persistent `localStorage` session support |
+| 📁 | **Document Management** | Create, rename, delete, and search documents |
 | 🕓 | **Version History** | Snapshot revisions with word-level LCS diff visualization |
 | 🧠 | **Smart Compose** | AI-assisted writing extension built into the editor |
 | 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
@@ -53,12 +52,11 @@
 │        │                          │                     │
 │        │                   Liveblocks Yjs (CRDT)        │
 │        │                   Live Cursors / Storage       │
-└────────┼──────────────────────────┼────────────────────-┘
-         │                          │
-    Convex Backend            Liveblocks Cloud
-    (DB + API + Auth)         (Real-Time Sync)
-         │
-    Clerk (Auth + Orgs)
+│        └──────────────┬───────────┼─────────────────────┘
+│                       │           │
+│                       ▼           ▼
+│                 Convex Backend  Liveblocks Cloud
+│               (DB & API Queries) (Real-Time Sync)
 ```
 
 ### How Conflict Resolution Works
@@ -88,7 +86,7 @@ Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-ba
 │   │   ├── (home)/          # Dashboard & document listing
 │   │   ├── api/             # API routes (Liveblocks auth, etc.)
 │   │   ├── documents/       # Editor page [documentId]
-│   │   └── sign-in/         # Auth pages
+│   │   └── sign-in/         # Redirect fallback sign-in page
 │   ├── components/          # Shared UI components (shadcn/ui + custom)
 │   ├── extensions/          # Custom TipTap extensions
 │   │   ├── font-size.ts
@@ -104,9 +102,8 @@ Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-ba
     ├── schema.ts            # Database schema
     ├── documents.ts         # Document CRUD
     ├── revisions.ts         # Snapshot & revision history
-    ├── members.ts           # Org membership
-    ├── users.ts             # User records
-    └── auth.config.ts       # Clerk JWT config
+    ├── members.ts           # Document membership & access queries
+    └── users.ts             # Demo user queries
 ```
 
 ---
@@ -116,7 +113,6 @@ Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-ba
 ### Prerequisites
 
 - [Convex](https://convex.dev) account
-- [Clerk](https://clerk.com) account
 - [Liveblocks](https://liveblocks.io) account
 
 ### 1 — Install
@@ -125,8 +121,6 @@ Shared UI state (margins, etc.) lives in **Liveblocks Storage** — also CRDT-ba
 git clone https://github.com/your-username/syncpad.git
 cd syncpad
 npm install
-# if you hit peer dep conflicts:
-npm install --legacy-peer-deps
 ```
 
 ### 2 — Environment Variables
@@ -134,55 +128,22 @@ npm install --legacy-peer-deps
 Create `.env.local` in the root:
 
 ```env
-# Convex
+# Convex URL (obtained from Convex setup)
 NEXT_PUBLIC_CONVEX_URL=your-convex-deployment-url
 
-# Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
-CLERK_SECRET_KEY=your-clerk-secret-key
-
-# Liveblocks
+# Liveblocks Secret Key (obtained from Liveblocks Dashboard)
 LIVEBLOCKS_SECRET_KEY=your-liveblocks-secret-key
 ```
 
 ### 3 — Convex Setup
 
+Run the Convex development server. This will deploy the schema and start your serverless database:
+
 ```bash
-npm install -g convex
 npx convex dev
 ```
 
-In your **Convex Dashboard → Settings → Authentication**, add Clerk as a provider:
-- Domain: `https://your-clerk-domain.clerk.accounts.dev`
-- Application ID: `convex`
-
-Update `convex/auth.config.ts`:
-
-```ts
-export default {
-  providers: [{
-    domain: "https://your-clerk-domain.clerk.accounts.dev",
-    applicationID: "convex"
-  }]
-}
-```
-
-### 4 — Clerk Setup
-
-1. Enable **Organizations** in Configure → Organizations
-2. Create a **JWT Template** named `convex` with these claims:
-
-```json
-{
-  "aud": "convex",
-  "name": "{{user.full_name}}",
-  "email": "{{user.primary_email_address}}",
-  "picture": "{{user.image_url}}",
-  "organization_id": "{{org.id}}"
-}
-```
-
-### 5 — Run
+### 4 — Run
 
 ```bash
 npm run dev
@@ -199,5 +160,5 @@ Open [http://localhost:3000](http://localhost:3000) 🎉
 ---
 
 <div align="center">
-  <sub>Built with Next.js · Convex · Liveblocks · Clerk · TipTap</sub>
+  <sub>Built with Next.js · Convex · Liveblocks · TipTap</sub>
 </div>
