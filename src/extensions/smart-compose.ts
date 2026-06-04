@@ -48,6 +48,7 @@ export const SmartCompose = Extension.create<SmartComposeOptions>({
 
   addProseMirrorPlugins() {
     const key = new PluginKey("smartComposeKey");
+    // eslint-disable-next-line @typescript-eslint/no-this-alias
     const extension = this;
 
     return [
