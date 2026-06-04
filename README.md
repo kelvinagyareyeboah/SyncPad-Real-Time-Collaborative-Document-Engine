@@ -1,5 +1,4 @@
-eplicaremoved — guaranteeing convergence across all peers
-- No central lock, no transformation functions, no bottleneck
+ation functions, no bottleneck
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
