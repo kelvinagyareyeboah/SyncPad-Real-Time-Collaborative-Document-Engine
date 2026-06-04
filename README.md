@@ -1,10 +1,4 @@
-
-│   │   └── utils.ts
-│   └── store/               # Zustand stores (editor, revision, zen mode)
-│
-└── convex/
-    ├── schema.ts            # Database schema
-    ├── documents.ts         # Document CRUD
+D
     ├── revisions.ts         # Snapshot & revision history
     ├── members.ts           # Document membership & access queries
     └── users.ts             # Demo user queries
