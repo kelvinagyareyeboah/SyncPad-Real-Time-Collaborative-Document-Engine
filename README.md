@@ -2,9 +2,7 @@
 
 |---|---|---|
 | 🔄 | **Real-Time Collaboration** | CRDT-based sync via Liveblocks Yjs — no conflicts, no locks |
-| ✍ | **Rich Text Editor** | TipTap with headings, tables, images, task lists, links & more |
-sion History** | Snapshot revisions with word-level LCS diff visualization |
-| 🧠 | **Smart Compose** | AI-assisted writing extension built into the editor |
+rt Compose** | AI-assisted writing extension built into the editor |
 | 🖥️ | **Zen Mode** | Distraction-free writing with Zustand-powered UI state |
 | 📐 | **Live Margin Control** | Drag-to-resize margins synced across collaborators via Liveblocks Storage |
 
