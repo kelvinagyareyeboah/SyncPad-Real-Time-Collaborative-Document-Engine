@@ -3,11 +3,6 @@
 
 Run the Convex development server. This will deploy the schema and start your serverless database:
 
-```bash
-npx convex dev
-```
-
-### 4 — Run
 
 ```bash
 npm run dev
