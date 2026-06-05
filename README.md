@@ -1,4 +1,4 @@
-ttps://github.com/your-username/
+/your-username/
 npm install
 ```
 
