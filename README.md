@@ -1,7 +1,4 @@
 
-
-- [Convex](https://conveccount
-
 ### 1
 git clone https://github.com/your-username/
 npm install
