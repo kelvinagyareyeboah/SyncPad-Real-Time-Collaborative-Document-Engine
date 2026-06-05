@@ -1,11 +1,5 @@
 /your-username/
-_CONVEX_URL=your-convex-deployment-url
 
-# Liveblocks Secret Key (obtained from Liveblocks Dashboard)
-LIVEBLOCKS_SECRET_KEY=your-liveblocks-secret-key
-```
-
-### 3 — Convex Setup
 
 Run the Convex development server. This will deploy the schema and start your serverless database:
 
