@@ -1,3 +1,3 @@
 /yo
 
-Open [http://localhost:30h Next.js · Co
+Open [http://localhost:30h N
