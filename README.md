@@ -3,8 +3,7 @@ npm install
 ```
 
 ### 2 — Environment Variables
-
-Create `.env.local` in the root:
+ root:
 
 ```env
 # Convex URL (obtained from Convex setup)
