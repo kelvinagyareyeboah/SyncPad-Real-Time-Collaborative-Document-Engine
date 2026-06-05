@@ -1,7 +1,6 @@
 
 
-- [Convex](https://convex.dev) account
-- [Liveblocks](https://liveblocks.io) account
+- [Convex](https://conveccount
 
 ### 1
 git clone https://github.com/your-username/
