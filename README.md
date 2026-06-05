@@ -1,3 +1,3 @@
 /yo
 
-Open [http://local
+Open [htt
