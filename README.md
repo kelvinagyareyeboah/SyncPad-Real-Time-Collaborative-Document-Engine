@@ -1,5 +1,5 @@
 /your-username/
 
-Open [http://localhost:3000](http://
+Open [http://localhost:300
 <div align=
   <sub>Built with Next.js · Convex · Live
