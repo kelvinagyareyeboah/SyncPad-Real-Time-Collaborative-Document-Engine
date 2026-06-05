@@ -4,9 +4,7 @@
 - [Convex](https://convex.dev) account
 - [Liveblocks](https://liveblocks.io) account
 
-### 1 — Install
-
-```bash
+### 1
 git clone https://github.com/your-username/
 npm install
 ```
