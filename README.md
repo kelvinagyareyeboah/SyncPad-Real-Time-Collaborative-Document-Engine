@@ -1,8 +1,5 @@
 /your-username/
-npm install
-```
-
-### 2 — Environment Variables
+bles
  root:
 
 ```env
