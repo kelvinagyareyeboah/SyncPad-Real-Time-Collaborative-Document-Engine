@@ -1,10 +1,5 @@
 /your-username/
-bles
- root:
-
-```env
-# Convex URL (obtained from Convex setup)
-NEXT_PUBLIC_CONVEX_URL=your-convex-deployment-url
+_CONVEX_URL=your-convex-deployment-url
 
 # Liveblocks Secret Key (obtained from Liveblocks Dashboard)
 LIVEBLOCKS_SECRET_KEY=your-liveblocks-secret-key
