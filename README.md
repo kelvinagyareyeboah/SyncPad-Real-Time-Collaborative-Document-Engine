@@ -1,5 +1,4 @@
 
-### Prerequisites
 
 - [Convex](https://convex.dev) account
 - [Liveblocks](https://liveblocks.io) account
