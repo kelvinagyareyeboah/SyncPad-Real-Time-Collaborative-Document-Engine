@@ -1,6 +1,4 @@
-
-### 1
-git clone https://github.com/your-username/
+ttps://github.com/your-username/
 npm install
 ```
 
