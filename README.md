@@ -1,4 +1,3 @@
 /your-username/
 
-Open [http://localhost:30
-  <sub>Built with Next.js · Convex · Live
+Open [http://localhost:30h Next.js · Convex · Live
