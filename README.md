@@ -6,10 +6,7 @@ Open [http://localhost:3000](http://localhost:3000) 🎉
 
 ## 📄 License
 
-[MIT](LICENSE)
-
----
-
+[MI
 <div align="center">
   <sub>Built with Next.js · Convex · Liveblocks · TipTap</sub>
 </div>
