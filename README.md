@@ -5,7 +5,7 @@
 | 📐 **Live Margin Control** |ins synced across all collaborators via Liveblocks Storage |
 | 📁 **Document Management** | Create, rename,
 | 🔐 ** with persistent `localStorage
-## `$ cat ARCHITECTURE.md`
+## `$
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
