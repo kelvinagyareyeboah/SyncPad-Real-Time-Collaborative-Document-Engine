@@ -1,5 +1,4 @@
-s. Multiple users edit simultaneously with live cursors, shared margin state, AI-assisted wri version history with word-le
-> *"Not a demo. A production
+uction
 | Feature | Details |
 |---|---|
 | 🔄 **Real-Time Collaboration** | CRDT sync via Liveblocks Yjs — no conflicts, no locks, no bottleneck |
