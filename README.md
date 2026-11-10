@@ -1,5 +1,4 @@
-editor |
-| 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
+ry** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators
 │                          Browser                             │
