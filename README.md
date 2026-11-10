@@ -3,7 +3,7 @@ headings, tables, images, size, line height |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** | Drag-to-resize margins synced across all collaborators via Liveblocks Storage |
-| 📁 **Document Management** | Create, rename, deacross all documents |
+| 📁 **Document Management** | Create, rename,
 | 🔐 **Lightweight Identity** with persistent `localStorage
 ## `$ cat ARCHITECTURE.md`
 
