@@ -3,8 +3,7 @@
 ╚══════╝   ╚═╝   ╚═╝  ╚═══╝ ╚═════╝╚═╝     ╚═╝  ╚═╝╚═════╝ 
 ```
 
-**Real-time collaborative document engine · CRDT conflict resolution · live cursors · version history · AI smart compose**
-
+**Real-time collaborative document engine · CRDT conflict resolution · live cursors · version hist
 [![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=161b22)]
 [![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white&labelColor=161b22)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat-square&logo=typescript&logoColor=white&labelColor=161b22)](https://typescriptlang.org)
