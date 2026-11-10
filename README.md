@@ -5,7 +5,7 @@ editor |
 │                          Browser                             │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
-│               │                        │                     │
+│               │         
 │               │              Liveblocks Yjs (CRDT)           │
 │               │              Live Cursors · Shared Storage   │
 │               └──────────────┬──────────┘                    │
