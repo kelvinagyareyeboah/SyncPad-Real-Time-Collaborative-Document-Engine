@@ -1,4 +1,4 @@
-s://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat-square&logo=typescript&logoColor=white&labelColor=161b22)](http
+o/badge/TypeScript-5.x-3178c6?style=flat-square&logo=typescript&logoColor=white&labelColor=161b22)](http
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38bdf8?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=161b22)](https://tailwindcss.com)
 [![Convex](https://img.shiel-ee342f?style=flat-squar)](https://convex.dev)
 [![Liveblocks](https://img.shields.io/badge/Liveblocktyle=flat-square&labelColor=161b22)](https://liveblocks.io)
