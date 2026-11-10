@@ -3,7 +3,7 @@ ess stack. It uses **CRDT-based conflict resolution** via Liveblocks + Yjs — m
 | Feature | Details |
 |---|---|
 | 🔄 **Real-Time Collaboration** | CRDT sync via Liveblocks Yjs — no conflicts, no locks, no bottleneck |
-| ✍️ **Rich Text Editor** | TipTap with headings, tables, images, task lists, links, font size, line height |
+| ✍️ **Rich Text Editor** | TipTap with headings, tables, images, size, line height |
 | 🧠 **Smart Compose** | AI-assisted writing extension built directly into the editor |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-powered UI state |
