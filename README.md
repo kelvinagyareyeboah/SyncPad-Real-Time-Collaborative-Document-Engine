@@ -1,5 +1,4 @@
-
-|xt Editor** | TipTap with headings, tables, images, size, line height |
+headings, tables, images, size, line height |
 | 🧠 **Smart Compose** | AI-assisted writing extension built directly into the editor |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
