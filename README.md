@@ -1,5 +1,4 @@
-
-| 🧠 **Smart Compose** | AI-assisted writing extension built directly into the editor |
+assisted writing extension built directly into the editor |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators via Liveblocks Storage |
