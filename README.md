@@ -1,10 +1,7 @@
 editor |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
-| 📐 **Live Margin Control** |ins synced across all collaborators via Liveblocks Sto
-
-```
-┌──────────────────────────────────────────────────────────────┐
+| 📐 **Live Margin Control** |ins synced across all collaborators
 │                          Browser                             │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
