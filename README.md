@@ -3,7 +3,7 @@ uction
 | ✍️ **Rich Text Editor** | TipTap with headings, tables, images, size, line height |
 | 🧠 **Smart Compose** | AI-assisted writing extension built directly into the editor |
 | 🕓 **Version History** | Snapshot revisions with **word-level LCS diff** visualization |
-| 🖥️ **Zen Mode** | Distraction-free writing via Zustand-powered UI state |
+| 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** | Drag-to-resize margins synced across all collaborators via Liveblocks Storage |
 | 📁 **Document Management** | Create, rename, delete, and search across all documents |
 | 🔐 **Lightweight Identity** | Fast local name-prompt with persistent `localStorage` session support |
