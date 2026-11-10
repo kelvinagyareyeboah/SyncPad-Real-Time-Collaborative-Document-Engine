@@ -1,6 +1,5 @@
 uction
-| Feature | Details |
-|---|---|
+| Feature | 
 | 🔄 **Real-Time Collaboration** | CRDT sync via Liveblocks Yjs — no conflicts, no locks, no bottleneck |
 | ✍️ **Rich Text Editor** | TipTap with headings, tables, images, size, line height |
 | 🧠 **Smart Compose** | AI-assisted writing extension built directly into the editor |
