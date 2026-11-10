@@ -1,5 +1,3 @@
-══╝ ╚═════╝╚═╝     ╚═╝  ╚═╝╚═════╝ 
-```
 
 **Real-time collaborative document engine · CRDT conflict resolution · live cursors · version hist
 [![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=161b22)]
