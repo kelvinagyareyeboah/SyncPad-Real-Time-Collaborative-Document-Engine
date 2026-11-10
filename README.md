@@ -1,4 +1,4 @@
-llaborative document engine built on a modern serverless stack. It uses **CRDT-based conflict resolution** via Liveblocks + Yjs — meaning no merge conflicts, no locking, no last-write-wins data loss. Multiple users edit simultaneously with live cursors, shared margin state, AI-assisted wri version history with word-le
+ine built on a modern serverless stack. It uses **CRDT-based conflict resolution** via Liveblocks + Yjs — meaning no merge conflicts, no locking, no last-write-wins data loss. Multiple users edit simultaneously with live cursors, shared margin state, AI-assisted wri version history with word-le
 > *"Not a demo. A production
 | Feature | Details |
 |---|---|
