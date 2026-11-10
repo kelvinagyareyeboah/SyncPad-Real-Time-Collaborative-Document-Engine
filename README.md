@@ -5,7 +5,7 @@
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** | Drag-to-resize margins synced across all collaborators via Liveblocks Storage |
 | 📁 **Document Management** | Create, rename, deacross all documents |
-| 🔐 **Lightweight Identity** | Fast local name-prompt with persistent `localStorage
+| 🔐 **Lightweight Identity** with persistent `localStorage
 ## `$ cat ARCHITECTURE.md`
 
 ```
