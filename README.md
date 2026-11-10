@@ -1,4 +1,4 @@
-█║╚██████╗██║     ██║  ██║█══╝ ╚═════╝╚═╝     ╚═╝  ╚═╝╚═════╝ 
+══╝ ╚═════╝╚═╝     ╚═╝  ╚═╝╚═════╝ 
 ```
 
 **Real-time collaborative document engine · CRDT conflict resolution · live cursors · version hist
