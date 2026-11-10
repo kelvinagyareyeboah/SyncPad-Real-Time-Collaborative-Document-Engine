@@ -1,4 +1,4 @@
-tyle=flat-square&labelColor=161b22)](https://liveblocks.io)
+uare&labelColor=161b22)](https://liveblocks.io)
 [![TipTap](https://img.shields.io/badge/TipTap-rich_editor-1a1a2e?style=flat-square&labelColor=161b22)](https://tiptap.dev)
 [![License](https://img.shields.io/badge/Licens-square&labelColo---
 
