@@ -1,4 +1,4 @@
- + Yjs — not Operational Transformation.
+erational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
