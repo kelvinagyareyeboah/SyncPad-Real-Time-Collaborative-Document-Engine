@@ -1,4 +1,4 @@
-ps://github.com/your-username/syncpad.git
+m/your-username/syncpad.git
 cd syncpad
 npm install
 ```
