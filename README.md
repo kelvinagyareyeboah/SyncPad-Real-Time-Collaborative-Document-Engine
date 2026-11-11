@@ -1,4 +1,4 @@
-erational Transformation.
+l Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
