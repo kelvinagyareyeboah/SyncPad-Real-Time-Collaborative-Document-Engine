@@ -1,10 +1,7 @@
 ome)/              # Dashboard & document listing
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
-│   │   ├── fo
-│ 
-│   │   └── smart-compose.ts     # AI smart compose
-│   ├── hooks/                   # use-debounce, use-mobile, use-search-param
+│   │ │   ├── hooks/                   # use-debounce, use-mobile, use-search-param
 │   ├── lib/
 │   │   ├── diff.ts              # LCS word-diff for revision history
 │   │   └── utils.ts
