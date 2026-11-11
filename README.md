@@ -1,5 +1,4 @@
 
-├── src/
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
