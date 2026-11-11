@@ -5,9 +5,7 @@ SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yj
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
-                                   Yjs merges
-                               ◄── "hello world" ──►
-                               (deterministic, no conflict)
+                                   Yjs mer ◄──
 ```
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
