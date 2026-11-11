@@ -1,6 +1,4 @@
-
-    ├── documents.ts             # Document CRUD
-    ├── revisions.ts             # Snapshot & revision history
+            # Snapshot & revision history
     ├── members.
 ## `$ c
 
