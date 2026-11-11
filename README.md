@@ -1,9 +1,5 @@
 https://convex.dev) — free tier available |
-| Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier available |
-
----
-
-### Step 1 — Clone & install
+| Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier avai
 
 ```bash
 git clone https://github.com/your-username/syncpad.git
