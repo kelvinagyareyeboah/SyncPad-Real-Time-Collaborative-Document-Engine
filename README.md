@@ -8,8 +8,7 @@ User A  ──── types "hello" ────►  Liveblocks  ◄──── 
 - Deletions are **tombstoned**, not removed — guaranteeing convergence across all peers
 - No central lock, no transformation pipeline, no race conditions
 
-Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** — also CRDT-based.
-
+Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
 ## `$ ls project/`
