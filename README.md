@@ -1,5 +1,5 @@
-" ────►  Liv
-- Every character has a globally unique ID `(authorId + logicalClock)`
+
+ter has a globally unique ID `(authorId + logicalClock)`
 - Concurrent ine positio** by comparing- No central lock, no transformation pipeline, no race conditions
 
 Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
