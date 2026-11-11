@@ -1,6 +1,5 @@
    │
-      [ Convex Backend ]              [ Liveblocks Cloud ]
-      Documents · Revisions           Real-time CRDT sync
+      [ Convex           Real-time CRDT sync
       Members · Users DB              Cursor broadcast
 ```
 
