@@ -1,8 +1,7 @@
 document listing
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
-│   │ │   ├── hooks/       -debounce, use-mobile, use-search-param
-│   ├── lib/
+│   │ │   ├── hooks/       -debounce, use-mobile, 
 │   │   ├── diff.ts              # LCS word-di
 │   │   └── utils.ts
 │   └── store/                   # , revisio
