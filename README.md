@@ -1,5 +1,4 @@
-   │rs DB              Cursor broadc
-SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
+   │rs DDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
