@@ -1,4 +1,4 @@
-2 — Environment variables
+ronment variables
 
 Create `.env.local` in the project root:
 
