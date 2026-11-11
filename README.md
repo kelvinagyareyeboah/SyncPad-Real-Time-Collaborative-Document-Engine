@@ -1,5 +1,4 @@
-
-─── types "hello" ────►  Liv
+" ────►  Liv
 - Every character has a globally unique ID `(authorId + logicalClock)`
 - Concurrent ine positio** by comparing- No central lock, no transformation pipeline, no race conditions
 
