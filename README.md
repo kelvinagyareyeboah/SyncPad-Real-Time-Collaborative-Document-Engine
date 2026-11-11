@@ -3,9 +3,7 @@ es
 Create `.env.local` in the project root:
 
 ```env
-# Convex — from your Convex dashboard
-NEXT_PUBLIC_CONVEX_URL=your-convex-deployment-url
-
+# Convex — from your Convex d
 # Liveblocks — from your Liveblocks dashboard → API Keys
 LIVEBLOCKS_SECRET_KEY=your-liveblocks-secret-key
 ```
