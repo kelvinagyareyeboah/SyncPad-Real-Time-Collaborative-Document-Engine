@@ -1,4 +1,4 @@
-iveblocks + Yjs — not Operational Transformation.
+ + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
