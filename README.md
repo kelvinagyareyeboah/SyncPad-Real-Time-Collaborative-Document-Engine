@@ -1,7 +1,7 @@
 
 
 ```
-User A  ──── types "hello" ────►  Liveblocks  ◄──── t
+User A  ──── types "hello" ────►  Liv
 - Every character has a globally unique ID `(authorId + logicalClock)`
 - Concurrent ine positio** by comparing IDs
 - Deletions are **tombstoned**, convergence across all peers
