@@ -1,5 +1,4 @@
-ing via Zustand-pow
-| 📐 **Live Margin Control** |ins synced across all collaborators
+in| 📐 **Live Margin Control** |ins synced across all collaborators
 │         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
