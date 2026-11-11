@@ -1,9 +1,4 @@
-
-```
-
----
-
-### Step 2 — Environment variables
+2 — Environment variables
 
 Create `.env.local` in the project root:
 
