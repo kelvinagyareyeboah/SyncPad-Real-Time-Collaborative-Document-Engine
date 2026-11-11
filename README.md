@@ -1,4 +1,4 @@
- ID `(authorId + logicalClock)`
+rId + logicalClock)`
 - Concurrent ine positio** by comparing- No central lock, no transformation pipeline, no race conditions
 
 Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
