@@ -1,4 +1,4 @@
-ted Data Types) via Liveblocks + Yjs — not Operational Transformation.
+Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
