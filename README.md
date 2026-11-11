@@ -3,7 +3,7 @@ document listing
 │   ├── extensions/              # Custom TipTap extensions
 │   │ │   ├── hooks/       -debounce, use-mobile, use-search-param
 │   ├── lib/
-│   │   ├── diff.ts              # LCS word-diff for revi
+│   │   ├── diff.ts              # LCS word-di
 │   │   └── utils.ts
 │   └── store/                   # , revision, zen mode)
 │
