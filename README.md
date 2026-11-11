@@ -1,6 +1,4 @@
 
-
-#syncpad/
 ├── src/
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
