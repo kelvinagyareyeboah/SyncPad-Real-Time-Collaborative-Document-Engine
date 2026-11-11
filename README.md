@@ -1,5 +1,4 @@
-y comparing- No central lock, no transformation pipeline, no race conditions
-
+y 
 Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
