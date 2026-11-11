@@ -1,4 +1,4 @@
-   │rs DDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
+s** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
