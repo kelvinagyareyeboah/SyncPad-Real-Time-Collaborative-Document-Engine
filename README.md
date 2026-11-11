@@ -1,8 +1,5 @@
 free tier available |
-| Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier avai
-
-```bash
-git clone https://github.com/your-username/syncpad.git
+| Liveblocks account | [liveblocks.io](https://liveblocks.io) — fregit clone https://github.com/your-username/syncpad.git
 cd syncpad
 npm install
 ```
