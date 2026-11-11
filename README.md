@@ -1,7 +1,7 @@
 ome)/              # Dashboard & document listing
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
-│   │ │   ├── hooks/                   # use-debounce, use-mobile, use-search-param
+│   │ │   ├── hooks/       -debounce, use-mobile, use-search-param
 │   ├── lib/
 │   │   ├── diff.ts              # LCS word-diff for revi
 │   │   └── utils.ts
