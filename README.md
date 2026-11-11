@@ -1,9 +1,7 @@
 
     ├── documents.ts             # Document CRUD
     ├── revisions.ts             # Snapshot & revision history
-    ├── members.ts               #`
----
-
+    ├── members.
 ## `$ cat INSTALL.md`
 
 ### Prerequisites
