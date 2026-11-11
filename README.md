@@ -5,7 +5,7 @@ ome)/              # Dashboard & document listing
 │   ├── lib/
 │   │   ├── diff.ts              # LCS word-diff for revi
 │   │   └── utils.ts
-│   └── store/                   # Zustand (editor, revision, zen mode)
+│   └── store/                   # , revision, zen mode)
 │
 └── convex/
     ├── schema.ts                # Database schema
