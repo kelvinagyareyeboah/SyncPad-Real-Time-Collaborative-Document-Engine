@@ -1,7 +1,7 @@
 
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators
-│                          Browser                             │
+│         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
 │               │         
