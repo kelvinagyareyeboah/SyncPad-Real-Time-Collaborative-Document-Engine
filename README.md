@@ -1,4 +1,4 @@
-ns synced across all collaborators
+cross all collaborators
 │         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
