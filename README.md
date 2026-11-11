@@ -5,7 +5,7 @@ document listing
 │   ├── lib/
 │   │   ├── diff.ts              # LCS word-di
 │   │   └── utils.ts
-│   └── store/                   # , revision, zen mode)
+│   └── store/                   # , revisio
 │
 └── convex/
     ├── schema.ts                # Database schema
