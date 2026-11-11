@@ -1,4 +1,4 @@
-l Transformation.
+ormation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
