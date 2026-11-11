@@ -1,4 +1,4 @@
-ree Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
+ted Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
