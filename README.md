@@ -1,4 +1,4 @@
-gins, zen mode, etc.) lives in **Liveblocks Storage** 
+ zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
 #syncpad/
