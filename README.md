@@ -1,4 +1,4 @@
-ount | [liveblocks.io](https://liveblocks.io) — fregit clone https://github.com/your-username/syncpad.git
+eblocks.io](https://liveblocks.io) — fregit clone https://github.com/your-username/syncpad.git
 cd syncpad
 npm install
 ```
