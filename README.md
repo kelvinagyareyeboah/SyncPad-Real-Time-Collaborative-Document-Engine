@@ -4,7 +4,7 @@
 User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── U
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
-- Concurrent inserts at the same position resolve **deterministically** by comparing IDs
+- Concurrent inserts at the same positio** by comparing IDs
 - Deletions are **tombstoned**, convergence across all peers
 - No central lock, no transformation pipeline, no race conditions
 
