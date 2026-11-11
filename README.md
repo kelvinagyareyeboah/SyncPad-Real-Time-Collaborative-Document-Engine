@@ -1,4 +1,4 @@
-free tier available |
+lable |
 | Liveblocks account | [liveblocks.io](https://liveblocks.io) — fregit clone https://github.com/your-username/syncpad.git
 cd syncpad
 npm install
