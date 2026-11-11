@@ -1,4 +1,4 @@
- Control** |ins synced across all collaborators
+ns synced across all collaborators
 │         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
