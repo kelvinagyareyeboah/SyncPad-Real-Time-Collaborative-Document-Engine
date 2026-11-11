@@ -1,5 +1,4 @@
-
-| 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
+** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators
 │         │
 │                                                              │
