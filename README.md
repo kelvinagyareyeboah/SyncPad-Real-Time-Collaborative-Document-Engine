@@ -1,4 +1,4 @@
-fregit clone https://github.com/your-username/syncpad.git
+ps://github.com/your-username/syncpad.git
 cd syncpad
 npm install
 ```
