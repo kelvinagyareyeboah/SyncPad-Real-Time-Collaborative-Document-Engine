@@ -1,5 +1,4 @@
-y 
-Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
+UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
 #syncpad/
