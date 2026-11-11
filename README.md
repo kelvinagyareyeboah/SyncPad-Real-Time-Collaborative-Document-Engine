@@ -1,4 +1,4 @@
-ex.dev) — free tier available |
+free tier available |
 | Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier avai
 
 ```bash
