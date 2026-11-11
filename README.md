@@ -5,7 +5,7 @@ User A  ──── types "hello" ────►  Liveblocks  ◄──── 
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
 - Concurrent inserts at the same position resolve **deterministically** by comparing IDs
-- Deletions are **tombstoned**, not removed — guaranteeing convergence across all peers
+- Deletions are **tombstoned**, convergence across all peers
 - No central lock, no transformation pipeline, no race conditions
 
 Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
