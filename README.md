@@ -2,7 +2,7 @@ ome)/              # Dashboard & document listing
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
 │   │   ├── fo
-│   │   ├── li
+│ 
 │   │   └── smart-compose.ts     # AI smart compose
 │   ├── hooks/                   # use-debounce, use-mobile, use-search-param
 │   ├── lib/
