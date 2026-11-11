@@ -1,10 +1,7 @@
 
     ├── documents.ts             # Document CRUD
     ├── revisions.ts             # Snapshot & revision history
-    ├── members.ts               # Document 
-    └── users.ts                 # Demo user queries
-```
-
+    ├── members.ts               #`
 ---
 
 ## `$ cat INSTALL.md`
