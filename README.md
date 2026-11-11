@@ -3,7 +3,7 @@ ome)/              # Dashboard & document listing
 │   ├── extensions/              # Custom TipTap extensions
 │   │ │   ├── hooks/                   # use-debounce, use-mobile, use-search-param
 │   ├── lib/
-│   │   ├── diff.ts              # LCS word-diff for revision history
+│   │   ├── diff.ts              # LCS word-diff for revi
 │   │   └── utils.ts
 │   └── store/                   # Zustand (editor, revision, zen mode)
 │
