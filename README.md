@@ -1,4 +1,4 @@
-in| 📐 **Live Margin Control** |ins synced across all collaborators
+ Control** |ins synced across all collaborators
 │         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
