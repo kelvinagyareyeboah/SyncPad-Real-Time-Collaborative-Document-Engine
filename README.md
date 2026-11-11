@@ -1,5 +1,4 @@
- Notes |
-|---|---|
+
 | Node.js 18+ | [nodejnodejs.org) |
 | Convex account | [convex.dev](https://convex.dev) — free tier available |
 | Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier available |
