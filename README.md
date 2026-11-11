@@ -5,7 +5,7 @@ el LCS diff** visualization |
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
 │               │         
-│               │              Liveblocks Yjs (CRDT)           │
+│               │              Li
 │               │              Live Cursors · Shared Storage   │
 │               └──────────────┬──────────┘                    │
 └──────────────────────────────│──────────────────────────────-┘
