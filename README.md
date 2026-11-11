@@ -4,7 +4,7 @@
 ├── src/
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
-│   │   ├── api/                 # API r
+│   │   ├── api/              
 │   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
 │   │   ├── font-size.ts
