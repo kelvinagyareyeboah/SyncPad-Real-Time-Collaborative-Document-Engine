@@ -2,10 +2,7 @@ y
 Shared UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
-## `$ ls project/`
-
-```
-syncpad/
+#syncpad/
 ├── src/
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
