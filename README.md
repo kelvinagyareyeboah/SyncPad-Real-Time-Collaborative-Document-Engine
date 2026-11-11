@@ -1,4 +1,4 @@
-UI state (margins, zen mode, etc.) lives in **Liveblocks Storage** 
+gins, zen mode, etc.) lives in **Liveblocks Storage** 
 ---
 
 #syncpad/
