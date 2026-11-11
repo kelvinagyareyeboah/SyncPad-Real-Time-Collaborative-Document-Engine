@@ -1,4 +1,3 @@
-he project root:
 
 ```env
 # Convex — from youLIVEBLOCKS
