@@ -1,6 +1,4 @@
-ncpad.git
-cd syncpad
-npm install
+
 ```
 
 ---
