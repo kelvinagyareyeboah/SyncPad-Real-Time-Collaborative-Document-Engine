@@ -1,5 +1,4 @@
-
-│   └── store/                   # , revisio
+               # , revisio
 │
 └── convex/
     ├── schema.ts                # Database schema
