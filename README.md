@@ -5,9 +5,7 @@
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
 │   │   ├── api/                 # API r auth, etc.)
-│   │   ├── documents/           # Editor page [documentId]
-│   │   └── sign-in/             # Redirect fallback sign-in page
-│   ├── components/              # Shared UI (shadcn/ui + custom)
+│   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + custom)
 │   ├── extensions/              # Custom TipTap extensions
 │   │   ├── font-size.ts
 │   │   ├── line-height.ts
