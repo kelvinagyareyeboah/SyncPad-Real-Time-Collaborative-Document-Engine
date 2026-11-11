@@ -1,5 +1,4 @@
 
-│   │   └── utils.ts
 │   └── store/                   # , revisio
 │
 └── convex/
