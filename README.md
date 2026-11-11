@@ -1,4 +1,4 @@
-th **word-level LCS diff** visualization |
+el LCS diff** visualization |
 | 🖥️ **Zen Mode** | Distraction-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators
 │                          Browser                             │
