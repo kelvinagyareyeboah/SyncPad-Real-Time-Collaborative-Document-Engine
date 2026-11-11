@@ -1,7 +1,7 @@
 
     ├── documents.ts             # Document CRUD
     ├── revisions.ts             # Snapshot & revision history
-    ├── members.ts               # Document membership & access
+    ├── members.ts               # Document 
     └── users.ts                 # Demo user queries
 ```
 
