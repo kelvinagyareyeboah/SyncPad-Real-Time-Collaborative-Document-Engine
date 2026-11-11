@@ -1,5 +1,4 @@
-
-| Convex account | [convex.dev](https://convex.dev) — free tier available |
+[convex.dev](https://convex.dev) — free tier available |
 | Liveblocks account | [liveblocks.io](https://liveblocks.io) — free tier available |
 
 ---
