@@ -1,6 +1,4 @@
-   │
-      [ Convex           Real-time CRDT sync
-      Members · Users DB              Cursor broadc
+   │rs DB              Cursor broadc
 SyncPad uses **CRDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
