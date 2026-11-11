@@ -1,5 +1,4 @@
-sting
-│   │   ├── documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + │   │ │   ├── hooks/       -debounce, use-mobile, 
+ documents/           # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + │   │ │   ├── hooks/       -debounce, use-mobile, 
 │   │   ├── diff.ts              # LCS word-di
 │   │   └── utils.ts
 │   └── store/                   # , revisio
