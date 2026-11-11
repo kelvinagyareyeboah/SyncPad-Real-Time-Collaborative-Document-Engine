@@ -1,9 +1,7 @@
    │rs DDTs** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
-User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── User B
-                                   Yjs mer ◄──
-```
+User A  ──── types "hello" ────►  Liveblocks  ◄──── types "world" ──── U
 
 - Every character has a globally unique ID `(authorId + logicalClock)`
 - Concurrent inserts at the same position resolve **deterministically** by comparing IDs
