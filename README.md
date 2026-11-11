@@ -3,8 +3,7 @@ ing via Zustand-pow
 │         │
 │                                                              │
 │      Next.js 15 (App Router)  +  TipTap Editor              │
-│               │         
-│               │              Li
+│               │ 
 │               │              Live Cursors · Shared Storage   │
 │               └──────────────┬──────────┘                    │
 └──────────────────────────────│──────────────────────────────-┘
