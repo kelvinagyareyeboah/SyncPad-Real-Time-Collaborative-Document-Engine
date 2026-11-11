@@ -3,7 +3,7 @@ es
 Create `.env.local` in the project root:
 
 ```env
-# Convex — from youLIVEBLOCKS_SECRET_KEY=your-liv
+# Convex — from youLIVEBLOCKS
 
 ---
 
