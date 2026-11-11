@@ -1,5 +1,4 @@
-               # , revisio
-│    # Database schema
+
     ├── documents.ts             # Document CRUD
     ├── revisions.ts             # Snapshot & revision history
     ├── members.ts               # Document membership & access
