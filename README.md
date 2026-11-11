@@ -1,6 +1,4 @@
-
-│                                                              │
-│      Next.js 15 (App Router)  +  TipTap Editor              │
+App Router)  +  TipTap Editor              │
 │               │ 
 │               │              Live Cursors · Shared Storage   │
 │               └──────────────┬──────────┘                    │
