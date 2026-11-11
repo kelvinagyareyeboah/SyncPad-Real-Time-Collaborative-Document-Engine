@@ -1,5 +1,4 @@
- zen mode, etc.) lives in **Liveblocks Storage** 
----
+
 
 #syncpad/
 ├── src/
