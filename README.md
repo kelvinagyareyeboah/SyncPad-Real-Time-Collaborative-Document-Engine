@@ -1,5 +1,4 @@
-       # Editor page [docum│   ├── components/              # Shared UI (shadcn/ui + │   │ │   ├── hooks/       -debounce, use-mobile, 
-│   │   ├── diff.ts              # LCS word-di
+              # LCS word-di
 │   │   └── utils.ts
 │   └── store/                   # , revisio
 │
