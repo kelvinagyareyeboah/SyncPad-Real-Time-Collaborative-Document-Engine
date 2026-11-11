@@ -4,7 +4,7 @@
 ├── src/
 │   ├── app/
 │   │   ├── (home)/              # Dashboard & document listing
-│   │   ├── api/                 # API routes (Liveblocks auth, etc.)
+│   │   ├── api/                 # API r auth, etc.)
 │   │   ├── documents/           # Editor page [documentId]
 │   │   └── sign-in/             # Redirect fallback sign-in page
 │   ├── components/              # Shared UI (shadcn/ui + custom)
