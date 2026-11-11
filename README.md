@@ -1,4 +1,4 @@
-s** (Conflict-free Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
+ree Replicated Data Types) via Liveblocks + Yjs — not Operational Transformation.
 
 ```
 User A  ──── types "hello" ────►  Liveblocks  ◄──── t
