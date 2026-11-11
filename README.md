@@ -1,6 +1,4 @@
-es
-
-Create `.env.local` in the project root:
+he project root:
 
 ```env
 # Convex — from youLIVEBLOCKS
