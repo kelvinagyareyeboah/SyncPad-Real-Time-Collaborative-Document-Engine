@@ -1,4 +1,4 @@
-** | Distraction-free writing via Zustand-pow
+n-free writing via Zustand-pow
 | 📐 **Live Margin Control** |ins synced across all collaborators
 │         │
 │                                                              │
