@@ -1,7 +1,4 @@
 
-## `$ c
-
-### Prerequisites
 
 | Requirement | Notes |
 |---|---|
