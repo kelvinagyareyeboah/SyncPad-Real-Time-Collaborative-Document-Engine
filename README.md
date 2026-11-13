@@ -1,4 +1,3 @@
-Convex setup
 
 ```bash
 npx convex dev
