@@ -3,7 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | Utility-first| `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
-| `@tiptap/react` | Rich text editor core |
+| `@tiptap/react` | Rich text e
 | `@tiptap/extension-*` | Headings, tables, images, task lists, links |
 | `zustand` | Client-side UI state (zen mode, revision panel) |
 | `shadcn/ui` | Accessible compo
