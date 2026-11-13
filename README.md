@@ -3,8 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | Utility-first| `c
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sidmode, revision panel) |
-| `shadcn/ui` | Accessible compo
-
+| `shadcn/ui` 
 ---
 
 ## `$ cat ROADMAP.md`
