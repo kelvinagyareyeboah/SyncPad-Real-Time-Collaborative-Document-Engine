@@ -8,7 +8,7 @@
 [✓] Word-level LCS diff visualization
 [✓] AI Smart Compose extension
 [✓] Zen mode (Zustand)
-[✓] Document CRUD + search (Convex)
+[✓] Document CRUD + 
 [ ] Clerk / Auth.js authentication
 [ ] Document sharing via invite link
 [ ] Comments + threaded annotations
