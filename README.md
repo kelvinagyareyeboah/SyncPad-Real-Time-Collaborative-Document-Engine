@@ -2,7 +2,7 @@
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | 
-| `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sid
+| `@tiptap/extension-*` | Headings, tables, images,
 ## `$
 ```
 [✓] CRDT real-time collabo+ Yjs)
