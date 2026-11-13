@@ -6,7 +6,7 @@
 | `@tiptap/react` | Rich text editor core |
 | `@tiptap/extension-*` | Headings, tables, images, task lists, links |
 | `zustand` | Client-side UI state (zen mode, revision panel) |
-| `shadcn/ui` | Accessible component primitives |
+| `shadcn/ui` | Accessible compo
 
 ---
 
