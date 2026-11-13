@@ -1,5 +1,4 @@
-tations
-[ ] Export to PDF / Markdown / DOCX
+down / DOCX
 [ ] Offline mode + local-first sync
 [ ] Multiplayer presence avatars
 [ ] Document templates gallery
