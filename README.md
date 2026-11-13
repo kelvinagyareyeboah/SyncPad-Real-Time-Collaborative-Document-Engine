@@ -1,6 +1,4 @@
 
-[✓] CRDT real-time co[
-[✓] Snapshot version history
 [✓] Word-level LCS 
 [✓]
 [ ] Clerk / Au
