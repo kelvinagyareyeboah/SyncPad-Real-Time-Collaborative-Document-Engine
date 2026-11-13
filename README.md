@@ -5,8 +5,7 @@ abase. Keep this te
 
 ---
 
-## `$ cat VERIFY.md`
-
+## `$
 ```
 [1]  Open  →  http://localhost:3000
 [2]  Create a new document
