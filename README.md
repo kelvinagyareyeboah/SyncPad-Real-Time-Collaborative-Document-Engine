@@ -1,5 +1,4 @@
 
-npx
 > This deploys your schema and starts the serverless database. Keep this terminal running alongside `npm run dev`.
 
 ---
