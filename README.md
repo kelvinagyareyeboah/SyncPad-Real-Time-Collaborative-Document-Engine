@@ -1,7 +1,4 @@
-abase. Keep this te
-``
-
-## `$
+abase. Keep
 ```
 [1]  Open  →  http://localhost:3000
 [2]  Create a new document
