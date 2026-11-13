@@ -2,8 +2,7 @@
 [2]  Crea→  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version Histo
 
-| `tailwindcss` | Utility-first styling |
-| `convex` | Serverless database + real-ti
+| `tailwindcss` | Utility-first| `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
 | `@tiptap/react` | Rich text editor core |
 | `@tiptap/extension-*` | Headings, tables, images, task lists, links |
