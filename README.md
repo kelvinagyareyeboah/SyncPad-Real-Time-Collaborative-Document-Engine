@@ -2,7 +2,7 @@ abase. Keep
 ```
 [1]  Open  →  http://localhost:3000
 [2]  Create a new document
-[3]  Open the same document U tab
+[3]  Open t
 [4]  Type in one tab  →  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revision snapshot  →  open Version History
 [8]  Compare revisions  →  word-level LCS diff renders inline
