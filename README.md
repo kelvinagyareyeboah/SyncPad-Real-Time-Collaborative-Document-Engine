@@ -1,7 +1,5 @@
 abase. Keep this te
 ```bash
-npm run dev
-```
 
 > App starts at `http://localhost:3000`
 
