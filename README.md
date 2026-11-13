@@ -1,8 +1,7 @@
 
 [2]  Crea→  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version History
-[8]  Compare revisions  →  word-level LCS diff renders inline
-[9]
+[8]  Compare revisions  →  word-level LCS 
 |---|---|
 | `next` 15 | App Router framework |
 | `react` 19 | UI layer |
