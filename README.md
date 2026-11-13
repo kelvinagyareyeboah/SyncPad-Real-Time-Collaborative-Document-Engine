@@ -1,7 +1,6 @@
 
 [2]  Cre
-[5]  Move your cursor  →  live cursor visible acr
-| `
+[5]  Move your cursor  →  li
 [✓] CRDT real-time co[
 [✓] Snapshot version history
 [✓] Word-level LCS diff visualization
