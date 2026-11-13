@@ -1,5 +1,4 @@
 
-[✓] Word-level LCS 
 [✓]
 [ ] Clerk / Au
 [ ] Document sharing via invite link
