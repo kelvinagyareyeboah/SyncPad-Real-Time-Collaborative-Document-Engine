@@ -1,7 +1,7 @@
 
 [2]  Crea→  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version History
-[8]  Compare revisions  →  word-level LCS 
+[8]  Compare revision
 
 | `tailwindcss` | Utility-first styling |
 | `convex` | Serverless database + real-ti
