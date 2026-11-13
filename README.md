@@ -1,6 +1,6 @@
 abase. Keep
 ```
-[1]  Open  →  http://localhost:3000
+[1]  Open  →  http://l
 [2]  Create a new document
 [3]  Open t
 [4]  Type in one tab  →  changes appear insta
