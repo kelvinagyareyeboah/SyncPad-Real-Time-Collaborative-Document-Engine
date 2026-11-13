@@ -4,8 +4,7 @@
 | `tailwindcss` | Utility-first| `c
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sidmode, revision panel) 
 
-## `$ cat ROADMAP.md`
-
+## `$
 ```
 [✓] CRDT real-time collaboration (Liveblocks + Yjs)
 [✓] Rich text editing (TipTap)
