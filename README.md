@@ -1,7 +1,7 @@
 
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
-| `tailwindcss` | Utility-first| `convex` | Serverless d
+| `tailwindcss` | Utility-first| `c
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-side UI state (zen mode, revision panel) |
 | `shadcn/ui` | Accessible compo
 
