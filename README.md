@@ -5,7 +5,7 @@
 [✓] Snapshot version history
 [✓] Word-level LCS 
 [✓]
-[ ] Clerk / Auth.js authentication
+[ ] Clerk / Au
 [ ] Document sharing via invite link
 [ ] Comments + threaded annotations
 [ ] Export to PDF / Markdown / DOCX
