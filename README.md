@@ -1,7 +1,7 @@
 
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
-| `tailwindcss` | Utility-first| `c
+| `tailwindcss` | 
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sidmode, revision panel) 
 
 ## `$
