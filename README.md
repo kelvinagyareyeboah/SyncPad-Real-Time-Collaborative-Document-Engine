@@ -4,8 +4,7 @@
 [✓] CRDT real-time co[
 [✓] Snapshot version history
 [✓] Word-level LCS 
-[✓] Zen mode (Zustand)
-[✓] 
+[✓]
 [ ] Clerk / Auth.js authentication
 [ ] Document sharing via invite link
 [ ] Comments + threaded annotations
