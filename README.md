@@ -1,5 +1,4 @@
 
-```bash
 npx convex dev
 ```
 
