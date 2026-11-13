@@ -5,7 +5,7 @@
 |---|---|
 | `next`s
 | `tailwindcss` | Utility-first styling |
-| `convex` | Serverless database + real-time queries |
+| `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
 | `@tiptap/react` | Rich text editor core |
 | `@tiptap/extension-*` | Headings, tables, images, task lists, links |
