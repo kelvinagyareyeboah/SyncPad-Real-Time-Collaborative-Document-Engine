@@ -1,4 +1,4 @@
-hema and strverless database. Keep this terminal running alongside `npm run dev`.
+strverless database. Keep this terminal running alongside `npm run dev`.
 
 ---
 
