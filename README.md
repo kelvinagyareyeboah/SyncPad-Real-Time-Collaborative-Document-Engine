@@ -1,4 +1,3 @@
-rom you
 
 ### Step 3 — Convex setup
 
