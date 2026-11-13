@@ -1,5 +1,4 @@
-
-[ ] Document sharing via invite link
+ia invite link
 [ ] Comments + threaded annotations
 [ ] Export to PDF / Markdown / DOCX
 [ ] Offline mode + local-first sync
