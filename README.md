@@ -3,7 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revi
 | `@tiptap/extension-*
 [✓] CRDT real-time collabo+ Yjs)
-[✓] Rich text editing (TipTap)
+[✓] Rich text ed
 [✓] Live cursors across sessions
 [✓] Shared margin control via Liveblocks Storage
 [✓] Snapshot version history
