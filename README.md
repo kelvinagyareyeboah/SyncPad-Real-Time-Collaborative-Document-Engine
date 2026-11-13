@@ -6,7 +6,7 @@ abase. Keep
 [4]  Type in one tab  →  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revision snapshot  →  open Version History
 [8]  Compare revisions  →  word-level LCS diff renders inline
-[9]  Trigger Smart Compose  →  AI suggestions appear in editor
+[9]  Trigger Smart Compose  →  AI suggestr
 ```
 
 ---
