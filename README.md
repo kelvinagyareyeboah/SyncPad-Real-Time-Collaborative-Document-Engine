@@ -4,7 +4,7 @@
 [✓] CRDT real-time co[
 [✓] Snapshot version history
 [✓] Word-level LCS diff visualization
-[✓] AI Smart Compose extension
+[✓] 
 [✓] Zen mode (Zustand)
 [✓] 
 [ ] Clerk / Auth.js authentication
