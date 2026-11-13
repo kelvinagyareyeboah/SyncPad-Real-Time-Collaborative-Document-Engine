@@ -1,6 +1,4 @@
-down / DOCX
-[ ] Offline mode + local-first sync
-[ ] Multiplayer presence avatars
+
 [ ] Document templates gallery
 [ ] Mobile editor support
 ```
