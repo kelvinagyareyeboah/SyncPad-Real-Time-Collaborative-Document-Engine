@@ -2,10 +2,7 @@
 [2]  Crea→  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revision snapshot  →  open Version History
 [8]  Compare revisions  →  word-level LCS diff renders inline
-[9]  Trigger Smart Comp
-
-## `$ cat package.json | jq '.dependencies'`
-
+[9]  Trigger Smart
 | Package | Purpose |
 |---|---|
 | `next` 15 | App Router framework |
