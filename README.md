@@ -3,7 +3,7 @@ abase. Keep
 [1]  Open  →  http://localhost:3000
 [2]  Create a new document
 [3]  Open the same document URL in a second browser tab
-[4]  Type in one tab  →  changes appear instantly in the other
+[4]  Type in one tab  →  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revision snapshot  →  open Version History
 [8]  Compare revisions  →  word-level LCS diff renders inline
 [9]  Trigger Smart Compose  →  AI suggestions appear in editor
