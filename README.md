@@ -1,6 +1,6 @@
 
 [ ] Document templates ga
-## `$ cat LICENSE`
+## 
 
 MIT License — © 2025 [Agyare Kelvin Yeboah](https://kelvinagyareyeboah.me)
 
