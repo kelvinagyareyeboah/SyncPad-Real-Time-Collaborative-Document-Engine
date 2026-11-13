@@ -1,6 +1,6 @@
 
 [2]  Cre
-[5]  Move your cursor  →  live cursor visible across se[7]  Save a revi
+[5]  Move your cursor  →  live cursor visible acr
 | `
 [✓] CRDT real-time co[✓] Live cur
 [✓] Shared
