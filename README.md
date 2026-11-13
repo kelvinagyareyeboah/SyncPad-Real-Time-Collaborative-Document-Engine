@@ -1,7 +1,5 @@
 abase. Keep this te
-```bash
-
-> App sta
+``
 
 ## `$
 ```
