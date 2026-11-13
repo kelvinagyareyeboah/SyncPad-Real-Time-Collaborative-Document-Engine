@@ -1,5 +1,5 @@
 
-[2]  Crea→  changes appear insta
+[2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | Utility-first| `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, 
