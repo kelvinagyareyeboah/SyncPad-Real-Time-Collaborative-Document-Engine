@@ -1,5 +1,4 @@
-abase. Keep this terminal running alongside `npm run dev`.
-
+abase. Keep this terminal running alongside 
 ---
 
 ### Step 4 — Run
