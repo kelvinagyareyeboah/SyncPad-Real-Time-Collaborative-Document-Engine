@@ -1,5 +1,4 @@
-
-> This deploys your schema and starts the serverless database. Keep this terminal running alongside `npm run dev`.
+ys your schema and starts the serverless database. Keep this terminal running alongside `npm run dev`.
 
 ---
 
