@@ -1,7 +1,7 @@
 abase. Keep this te
 ```bash
 
-> App starts at `http://localhost:3000`
+> App starts at `http://
 
 ---
 
