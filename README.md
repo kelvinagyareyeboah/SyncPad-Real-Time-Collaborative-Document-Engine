@@ -3,8 +3,7 @@
 [5]  Move your cursor  →  li
 [✓] CRDT real-time co[
 [✓] Snapshot version history
-[✓] Word-level LCS diff visualization
-[✓] 
+[✓] Word-level LCS 
 [✓] Zen mode (Zustand)
 [✓] 
 [ ] Clerk / Auth.js authentication
