@@ -2,8 +2,7 @@
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | 
-| `@tiptap/extension-*` | Headings, ta
-```
+| `@tiptap/extension-*
 [✓] CRDT real-time collabo+ Yjs)
 [✓] Rich text editing (TipTap)
 [✓] Live cursors across sessions
