@@ -2,8 +2,7 @@
 [2]  Crea→  changes appear insta
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version History
 [8]  Compare revisions  →  word-level LCS 
-|---|---|
-| `next`s
+
 | `tailwindcss` | Utility-first styling |
 | `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
