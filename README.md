@@ -1,5 +1,4 @@
-ia invite link
-[ ] Comments + threaded annotations
+tations
 [ ] Export to PDF / Markdown / DOCX
 [ ] Offline mode + local-first sync
 [ ] Multiplayer presence avatars
