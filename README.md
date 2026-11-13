@@ -5,7 +5,7 @@
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sid
 ## `$
 ```
-[✓] CRDT real-time collaboration (Liveblocks + Yjs)
+[✓] CRDT real-time collabo+ Yjs)
 [✓] Rich text editing (TipTap)
 [✓] Live cursors across sessions
 [✓] Shared margin control via Liveblocks Storage
