@@ -1,7 +1,7 @@
 
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revi
-| `@tiptap/extension-*
+| `
 [✓] CRDT real-time co[✓] Live cur
 [✓] Shared margin control via Liveblocks Storage
 [✓] Snapshot version history
