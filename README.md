@@ -4,7 +4,7 @@
 [8]  Compare revisions  →  word-level LCS 
 |---|---|
 | `next` 15 | App Router framework |
-| `react` 19 | UI layer |
+| `rea
 | `typescript` | Type safety |
 | `tailwindcss` | Utility-first styling |
 | `convex` | Serverless database + real-time queries |
