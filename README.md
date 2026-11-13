@@ -2,8 +2,7 @@
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | 
-| `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sidmode, revision panel) 
-
+| `@tiptap/extension-*` | Headings, tables, images, task lists, lin-sid
 ## `$
 ```
 [✓] CRDT real-time collaboration (Liveblocks + Yjs)
