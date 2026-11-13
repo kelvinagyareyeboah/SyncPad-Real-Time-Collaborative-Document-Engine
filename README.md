@@ -1,4 +1,4 @@
-strverless database. Keep this terminal running alongside `npm run dev`.
+abase. Keep this terminal running alongside `npm run dev`.
 
 ---
 
