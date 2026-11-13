@@ -4,8 +4,7 @@
 | `tailwindcss` | Utility-first| `convex` | Serverless database + real-ti
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
 | `@tiptap/r
-| `@tiptap/extension-*` | Headings, tables, images, task lists, links |
-| `zustand` | Client-side UI state (zen mode, revision panel) |
+| `@tiptap/extension-*` | Headings, tables, images, task lists, lin-side UI state (zen mode, revision panel) |
 | `shadcn/ui` | Accessible compo
 
 ---
