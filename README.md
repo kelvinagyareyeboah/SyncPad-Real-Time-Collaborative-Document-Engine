@@ -2,7 +2,7 @@
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionope
 | `tailwindcss` | Utility-first| `convex` | Serverless database + real-ti
-| `@liveblocks/react` | CRDT sync, live 
+| `@liveblocks/react` |
 | `@tiptap/extension-*` | Headings, tables, images, task lists, lin-side UI state (zen mode, revision panel) |
 | `shadcn/ui` | Accessible compo
 
