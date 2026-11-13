@@ -1,7 +1,6 @@
 
 [ ] Document templates gallery
-[ ] Mobile editor support
-```
+[ ] Mobile 
 
 ---
 
