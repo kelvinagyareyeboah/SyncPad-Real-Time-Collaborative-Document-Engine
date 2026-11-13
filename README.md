@@ -3,8 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version History
 [8]  Compare revisions  →  word-level LCS 
 |---|---|
-| `next` 15 | App
-| `typescript` | Type safety |
+| `next`s
 | `tailwindcss` | Utility-first styling |
 | `convex` | Serverless database + real-time queries |
 | `@liveblocks/react` | CRDT sync, live cursors, shared storage |
