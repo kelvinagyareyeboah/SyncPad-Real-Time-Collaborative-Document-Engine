@@ -1,6 +1,4 @@
-abase. Keep this terminal runn
-
-###
+abase. Keep this te
 ```bash
 npm run dev
 ```
