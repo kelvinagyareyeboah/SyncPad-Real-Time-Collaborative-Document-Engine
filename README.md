@@ -2,8 +2,7 @@
 [2]  Cre
 [5]  Move your cursor  →  live cursor visible acr
 | `
-[✓] CRDT real-time co[✓] Live cur
-[✓] Shared
+[✓] CRDT real-time co[
 [✓] Snapshot version history
 [✓] Word-level LCS diff visualization
 [✓] AI Smart Compose extension
