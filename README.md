@@ -3,7 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revi
 | `
 [✓] CRDT real-time co[✓] Live cur
-[✓] Shared margin control vi
+[✓] Shared
 [✓] Snapshot version history
 [✓] Word-level LCS diff visualization
 [✓] AI Smart Compose extension
