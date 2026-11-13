@@ -1,4 +1,4 @@
-hema and starts the serverless database. Keep this terminal running alongside `npm run dev`.
+hema and strverless database. Keep this terminal running alongside `npm run dev`.
 
 ---
 
