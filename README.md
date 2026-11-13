@@ -1,5 +1,4 @@
 
-[2]  Cre cursor  →  li
 [✓] CRDT real-time co[
 [✓] Snapshot version history
 [✓] Word-level LCS 
