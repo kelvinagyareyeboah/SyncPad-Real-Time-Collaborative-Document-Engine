@@ -3,8 +3,7 @@
 [5]  Move your cursor  →  live cursor visible across se[7]  Save a revisionopen Version History
 [8]  Compare revisions  →  word-level LCS 
 |---|---|
-| `next` 15 | App Router framework |
-| `rea
+| `next` 15 | App
 | `typescript` | Type safety |
 | `tailwindcss` | Utility-first styling |
 | `convex` | Serverless database + real-time queries |
