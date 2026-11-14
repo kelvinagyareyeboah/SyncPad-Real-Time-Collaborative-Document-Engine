@@ -1,2 +1,2 @@
 
-[ ] Docuto use, modify, and distr
+[ ] Docuto use, modify, and dist
