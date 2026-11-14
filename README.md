@@ -1,5 +1,5 @@
 
-[ ] Document templatesFree to use, modify, and distribute with attribut
+[ ] Document templto use, modify, and distribute with attribut
 
 ## `$ whoami --links`
 
