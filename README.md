@@ -1,5 +1,5 @@
 
-[ ] Document templto use, modify, and distribute with attribut
+[ ] Docuto use, modify, and distribute with attribut
 
 ## `$ whoami --links`
 
