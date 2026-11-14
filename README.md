@@ -2,8 +2,7 @@
 [ ] Document templates ga
 ## 
 
-MIT License — © 2025 [Agyare Kelvin Yeboah](https://kelvinagyareyeboah.me)
-
+MIT License — © 2025 [Agyare Kelvin Yeboah](https://kelvinagyarey
 Free to use, modify, and distribute with attribution.
 
 ---
