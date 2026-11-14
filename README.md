@@ -1,3 +1,3 @@
 
 [ ] Docuto use, modify, and distr
-## `$ whoami -[![Website](h.shiel/badge/h?styl
+## `$ whoami -[![Website](h.shiel/badge/h?
