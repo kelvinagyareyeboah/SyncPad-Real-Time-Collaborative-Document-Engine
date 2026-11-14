@@ -1,7 +1,5 @@
 
-[ ] Document templatesFree to use, modify, and distribute with attribution.
-
----
+[ ] Document templatesFree to use, modify, and distribute with attribut
 
 ## `$ whoami --links`
 
